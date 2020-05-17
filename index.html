@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ccs/style.css ">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <script src="https://cdjs.cloudfare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/956c93da07.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdeliver.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="css/style.css ">
+    <link href="https://fonts.googleapis.com/css?family=Qwigley|Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="css/styles.css" type="text/css" rel="Stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
  
     <title>French & Country</title>
@@ -19,16 +21,18 @@
             <div class="flex container">
                 <a href="#" id="logo">French & Country</a>
                 <nav>
-                    <button id="nav-toggle" class="hamburger-menu"></button>
+                    <button id="nav-toggle" class="hamburger-menu">
                     <span class="strip"></span>
                     <span class="strip"></span>
                     <span class="strip"></span>
-                    <ul class="navmenu">
+                   </button>
+                    <ul id="nav-menu">
                         <li><a href="#" class="active">Home</a></li>
                         <li><a href="#">Kitchens</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Testimonials</a></li>  
                         <li><a href="#">Contact</a></li>  
+                        <li id="close-flyout"><span>X<!-- Add Icon--></span></li>
                     </ul>
                 </nav>
             </div>
@@ -71,50 +75,51 @@
         <div class="container">
             <h2>Kitchens</h2>
             <div id="kitchen-slider" class="slick">
-                <div>
+                <div class="img-card">
                     <img src="https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Kithen-1">
                     <div class="kitchen-details">
-                        <p class="kitchen-info"></p>
+                        <p class="kitchen-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
                 </div>
             
                 <div>
                     <img src="https://images.pexels.com/photos/1358900/pexels-photo-1358900.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Kithen-1">
                     <div class="kitchen-details">
-                        <p class="kitchen-info"></p>
+                        <p class="kitchen-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
                 </div>
             
                 <div>
                     <img src="https://images.pexels.com/photos/349749/kitchen-stove-sink-kitchen-counter-349749.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Kithen-1">
                     <div class="kitchen-details">
-                        <p class="kitchen-info"></p>
+                        <p class="kitchen-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
                 </div>
             
                 <div>
                     <img src="https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Kithen-1">
                     <div class="kitchen-details">
-                        <p class="kitchen-info"></p>
+                        <p class="kitchen-info">Lorem ipsum dolor sit ame</p>
                     </div>
                 </div>
             
                 <div>
                     <img src="https://images.pexels.com/photos/3214064/pexels-photo-3214064.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Kithen-1">
                     <div class="kitchen-details">
-                        <p class="kitchen-info"></p>
+                        <p class="kitchen-info">Lorem ipsum dolor sit ame</p>
                     </div>
                 </div>
                 
                 <div>
                     <img src="https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Kithen-1">
                     <div class="kitchen-details">
-                        <p class="kitchen-info"></p>
+                        <p class="kitchen-info">Lorem ipsum dolor sit ame</p>
                     </div>
                 </div>
             </div>
             <button class="rounded">View All Kitchens</button>
         </div>
+    
     </section>
 
     <section id="about"> <!--the best-->
@@ -148,17 +153,17 @@
                 <div class="card">
                     <img src="https://images.pexels.com/photos/2089696/pexels-photo-2089696.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sharon-img">
                     <h3>Sharon Baggott</h3>
-                    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></blockquote>
+                    <blockquote><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p></blockquote>
                 </div>
                 <div class="card">
                     <img src="https://images.pexels.com/photos/211760/pexels-photo-211760.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sharon-img">
                     <h3>Mr & Mrs Smith</h3>
-                    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></blockquote>
+                    <blockquote><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p></blockquote>
                 </div>
                 <div class="card">
                     <img src="https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sharon-img">
                     <h3>Shirley Thompson</h3>
-                    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></blockquote>
+                    <blockquote><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p></blockquote>
                     
                 </div>
             </div>
@@ -179,8 +184,8 @@
 
                         <label for="message">Message</label>
                         <textarea name="message" id="message">Write your message here...</textarea>
-
-                        <buttton class="rounded">Send message</buttton>
+                        
+                        <button class="rounded">Send message</button>
                     </form>
                 </div>
 
@@ -201,11 +206,12 @@
     </section>
 
     <footer>
-        <div class="flex-container">
+        <div class="flex container">
             <div class="footer-about">
                 <h5>About French & Country</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,
                     Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+             </div>       
                     <div class="footer-quick-links">
                         <h5>Quick Links</h5>
                         <ul>
@@ -218,14 +224,101 @@
 
                     <h5 class="follow-us">Follow Us</h5>
                     <ul>
-                        <li><a href="#">facebook</a> </li> <!-- Add Icon-->
-                        <li><a href="#">instagram</a> </li> <!-- Add Icon-->
+                        <li><span class="fab fa-facebook-f"></span></li> 
+                        <li><span class="fab fa-instagram"></span></li> 
                     </ul>
             </div>
         </div>
         <div>
-            <small>Copyright &copy; 2020 All Rights Reserved | French&Country</small>
+            <small>Copyright &copy; 2020 All Rights Reserved | French & Country</small>
         </div>
     </footer>
+    
+    <script>
+        $(function () {
+            let headerElem = $('header');
+            let logo = $('#logo');
+            let navMenu = $('#nav-menu');
+            let navToggle = $('#nav-toggle');
+
+           $('#kitchen-slider').slick({
+                prevArrow: false,
+                nextArrow: false,
+                pauseOnHover: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                
+                
+                
+                responsive: [
+                    {
+                        breakpoint: 1100,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    },
+                    {
+                        breakpoint: 530,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    }
+                ]
+           });
+
+
+           navToggle.on('click', () => {
+               navMenu.css('right', '0');
+           });
+
+           $('#close-flyout').on('click', () => {
+                navMenu.css('right', '-100%');
+           });
+
+           $(document).on('click', (e) => {
+               let target = $(e.target);
+               if (!(target.closest('#nav-toggle').length > 0 || target.closest('#nav-menu').length > 0)) {
+                   navMenu.css('right', '-100%');
+               }
+           });
+
+           $(document).scroll(() => {
+               let scrollTop = $(document).scrollTop();
+
+               if (scrollTop > 0) {
+                   navMenu.addClass('is-sticky');
+                   logo.css('color', '#343a60');
+                   headerElem.css('background', '#fff');
+                   navToggle.css('border-color', '#000');
+                   navToggle.find('.strip').css('background-color', '#000');
+               } else {
+                   navMenu.removeClass('is-sticky');
+                   logo.css('color', '#fff');
+                   headerElem.css('background', 'transparent');
+                   navToggle.css('border-color', '#fff');
+                   navToggle.find('.strip').css('background-color', '#fff');
+               }
+
+               headerElem.css(scrollTop >= 200 ? {'padding': '0.5rem', 'box-shadow': '0 -4px 10px 1px #999'} : {'padding': '1rem 0', 'box-shadow': 'none' });
+           });
+
+           $(document).trigger('scroll');
+        });
+    </script>
+    
 </body>
 </html>
